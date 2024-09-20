@@ -1,0 +1,102 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-info p.price {
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-images {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    width: 300px; /* Adjust size as needed */
+    margin: 10px;
+    border: 2px solid #007BFF; /* Add border for emphasis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for depth */
+}
+
+.additional-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+    border: 2px solid #007BFF; /* Add border for emphasis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for depth */
+}
+
+.additional-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+    border: 2px solid #007BFF; /* Optional: Add a border for emphasis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for depth */
+}
+
+.reviews {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-link {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .product-section {
+        flex-direction: column;
+    }
+
+    .product-images {
+        flex-direction: column;
+    }
+}
